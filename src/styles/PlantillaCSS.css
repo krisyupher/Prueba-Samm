@@ -1,0 +1,48 @@
+img{
+  padding: 0.35rem;
+  margin: 0.35rem;
+}
+.tamaño{
+}
+.contenedor-botones{
+  text-align: right;
+  margin-top: 1.35rem;
+}
+.barra-superior{
+  height: 120px;
+  border-bottom: 1px solid #28679d;
+}
+.fixed-action-btn{
+  position: relative;
+  height: 40px;
+  margin: 2.35rem;
+}
+a .btn-floating {
+}
+.modal{
+  position:fixed;
+  top: 25%;
+  left: 10%;
+}
+.modaEjemplo{
+  position: fixed;
+}
+.cardHome{
+  height: auto!important;
+}
+.cabeceraSamm{
+  background-color: #28679d;
+  padding:0px;
+}
+.colorSamm{
+  background-color: #28679d;
+}
+.cuerpoSamm{
+  background-color: #28679d;
+}
+.material-icons.obliga-no { color: rgba(64, 64, 64, 1); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.obliga-si { color: rgba(255, 99, 99, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
