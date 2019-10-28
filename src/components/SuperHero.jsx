@@ -3,23 +3,23 @@ import React from 'react';
 const SuperHero = () => {
   return (
     <React.Fragment>
-      <div class="s12 m12 l12 col colorSamm">
-        <div class="row buscador">
-          <div class="s6 m8 l10 push-l1 col">
-            <div class="row">
-              <div class="card">
-                <div class="l10 card-content container-formulario">
+      <div className="s12 m12 l12 col colorSamm">
+        <div className="row buscador">
+          <div className="s6 m8 l10 push-l1 col">
+            <div className="row">
+              <div className="card">
+                <div className="l10 card-content container-formulario">
                   <h6>
                     Buscador de Equipos
                   </h6>
-                  <div class="chip">
-                    Davivienda <i class="close material-icons">close</i>
+                  <div className="chip">
+                    Davivienda <i className="close material-icons">close</i>
                   </div>
-                  <div class="chip">
-                    Bogota <i class="close material-icons">close</i>
+                  <div className="chip">
+                    Bogota <i className="close material-icons">close</i>
                   </div>
                   <hr />
-                  <div class="input-field col s12">
+                  <div className="input-field col s12">
                     <select>
                       <option value="" disabled selected>Seleccione</option>
                       <option value="1">Davivienda</option>
@@ -29,7 +29,7 @@ const SuperHero = () => {
                     <label>Cliente</label>
                   </div>
 
-                  <div class="input-field col s12">
+                  <div className="input-field col s12">
                     <select multiple>
                       <option value="" disabled>Seleccione</option>
                       <option value="1">Oficinas</option>
@@ -40,7 +40,7 @@ const SuperHero = () => {
                     <label>Familia</label>
                   </div>
 
-                  <div class="input-field col s12">
+                  <div className="input-field col s12">
                     <select>
                       <optgroup label="Antioquia">
                         <option value="1">Antioquia</option>
@@ -62,15 +62,15 @@ const SuperHero = () => {
                     </select>
                     <label>Zona</label>
                   </div>
-                  <div class="row">
-                    <div class="col s12">
-                      <div class="row">
-                        <div class="input-field col s12">
-                          <i class="material-icons prefix">search</i>
+                  <div className="row">
+                    <div className="col s12">
+                      <div className="row">
+                        <div className="input-field col s12">
+                          <i className="material-icons prefix">search</i>
                           <input
                             type="text"
                             id="autocomplete-input"
-                            class="autocomplete"
+                            className="autocomplete"
                           />
                           <label for="autocomplete-input">Proveedor</label>
                         </div>
@@ -78,17 +78,17 @@ const SuperHero = () => {
                     </div>
                   </div>
                 </div>
-                <a id="Agregar1" class="btn-small blue">Buscar</a>
+                <a id="Agregar1" className="btn-small blue">Buscar</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="row equipos">
-          <div class="s6 m8 l10 push-l1 col">
-            <div class="row">
-              <div class="card white">
-                <div class="card-content container-formulario">
-                  <table class="striped">
+        <div className="row equipos">
+          <div className="s6 m8 l10 push-l1 col">
+            <div className="row">
+              <div className="card white">
+                <div className="card-content container-formulario">
+                  <table className="striped">
                     <thead>
                       <tr>
                         <th>Equipo</th>
@@ -102,7 +102,7 @@ const SuperHero = () => {
                         <td>Libertadores Pereira</td>
                         <td>Extintores</td>
                         <td>
-                          <div class="input-field col s12">
+                          <div className="input-field col s12">
                             <select>
                               <optgroup label="Semanal">
                                 <option value="1">4 visitas al mes</option>
@@ -133,7 +133,7 @@ const SuperHero = () => {
                       </tr>
                     </tbody>
                   </table>
-                  <a id="A1" class="btn-small blue">Crear Plan</a>
+                  <a id="A1" className="btn-small blue">Crear Plan</a>
                 </div>
               </div>
             </div>

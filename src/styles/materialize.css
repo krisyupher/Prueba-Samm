@@ -2785,7 +2785,7 @@ video.responsive-video {
 }
 
 .breadcrumb i,
-.breadcrumb [class^="mdi-"], .breadcrumb [class*="mdi-"],
+.breadcrumb [className^="mdi-"], .breadcrumb [className*="mdi-"],
 .breadcrumb i.material-icons {
   display: inline-block;
   float: left;
@@ -2850,7 +2850,7 @@ video.responsive-video {
 }
 
 /*********************
-  Transition Classes
+  Transition classNamees
 **********************/
 ul.staggered-list li {
   opacity: 0;
@@ -2863,7 +2863,7 @@ ul.staggered-list li {
 }
 
 /*********************
-  Media Query Classes
+  Media Query classNamees
 **********************/
 @media only screen and (max-width: 600px) {
   .hide-on-small-only, .hide-on-small-and-down {
@@ -3308,7 +3308,7 @@ td, th {
 }
 
 /*******************
-  Utility Classes
+  Utility classNamees
 *******************/
 .hide {
   display: none !important;
@@ -3488,7 +3488,7 @@ table span.badge {
   min-height: 1px;
 }
 
-.row .col[class*="push-"], .row .col[class*="pull-"] {
+.row .col[className*="push-"], .row .col[className*="pull-"] {
   position: relative;
 }
 
@@ -4296,7 +4296,7 @@ nav a {
 }
 
 nav i,
-nav [class^="mdi-"], nav [class*="mdi-"],
+nav [className^="mdi-"], nav [className*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 24px;
@@ -4368,7 +4368,7 @@ nav .brand-logo.right {
 }
 
 nav .brand-logo i,
-nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
+nav .brand-logo [className^="mdi-"], nav .brand-logo [className*="mdi-"],
 nav .brand-logo i.material-icons {
   float: left;
   margin-right: 15px;
@@ -7610,7 +7610,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li > a > i,
-.sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"],
+.sidenav li > a > [className^="mdi-"], .sidenav li > a li > a > [className*="mdi-"],
 .sidenav li > a > i.material-icons {
   float: left;
   height: 48px;

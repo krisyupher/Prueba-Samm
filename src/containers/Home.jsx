@@ -1,22 +1,27 @@
-import React from 'react'
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import SuperHero from '../components/SuperHero'
+import React from "react";
+import Header from "../components/Header";
+import Mantenimiento from "../components/Mantenimiento";
+import Clientes from "../components/Clientes";
+import Familias from "../components/Familias";
+import Zona from "../components/Zona";
 
-import '../styles/materialize.css';
-import '../styles/materialize.min.css';
-import '../styles/PlantillaCSS.css';
+import "../styles/materialize.css";
+import "../styles/materialize.min.css";
+import "../styles/PlantillaCSS.css";
 
-const Home = () =>{
+const Home = () => {
   return (
     <React.Fragment>
-      <div class="row">
+      <div className="row">
         <Header />
-        <Hero />
-        <SuperHero />
+        <Mantenimiento>
+          <Clientes />
+          <Familias />
+          <Zona />
+        </Mantenimiento>
       </div>
     </React.Fragment>
   );
-}
+};
 
-export default Home
+export default Home;
